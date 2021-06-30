@@ -52,6 +52,10 @@ If your distro is not listed please refer to their respective documentation nor 
 
 ### 3.2) Find an ACPI call that works for you
 
+Before proceeding we need to:
+
+    sudo modprobe acpi_call
+
 On Ubuntu, Debian and friends please run `sudo /usr/share/doc/acpi-call-dkms/examples/turn_off_gpu.sh`
 
 For Arch Linux and friends run `sudo /usr/share/acpi_call/examples/turn_off_gpu.sh`
