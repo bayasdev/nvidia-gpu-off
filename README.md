@@ -33,7 +33,10 @@ Before proceeding with this guide we need to know which are the PCI busses emplo
 
 In my laptop this was the output:
 
-As you can see `placeholder` belongs to the GPU itself and `placeholder` to the GPU's audio chipset, let's take note of those PCI busses.
+    01:00.0 VGA compatible controller: NVIDIA Corporation GP106M [GeForce GTX 1060 Mobile]
+    01:00.1 Audio device: NVIDIA Corporation GP106 High Definition Audio Controller
+
+As you can see `01:00.0` belongs to the GPU itself and `01:00.1` to the GPU's audio chipset, let's take note of those PCI busses.
 
 ### 3.1) Install `acpi-call-dkms`
 
