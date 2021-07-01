@@ -44,9 +44,9 @@ On Ubuntu, Debian and friends do:
 
     sudo apt install acpi-call-dkms
 
-On Arch Linux and friends this package is called `acpi_call_dkms` yep with an underscore so do:
+On Arch Linux and friends this package is called `acpi_call-dkms` so do:
 
-    sudo pacman -S acpi_call_dkms
+    sudo pacman -S acpi_call-dkms
 
 If your distro is not listed please refer to their respective documentation nor repositories.
 
