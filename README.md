@@ -1,3 +1,8 @@
+# 👀 Checkout the new [EnvyControl](https://github.com/geminis3/EnvyControl) tool 🚀🚀🚀
+It provides a much simpler way to switch between GPU modes on Optimus Laptops under Linux, as well as turning off the Nvidia dGPU using an alternative approach that consists of removing the card from the PCI bus with Udev rules.
+
+_________________
+
 # nvidia-gpu-off
 The definitive guide to completely turn off your Nvidia dedicated GPU and thus doubling your laptop's battery life on Linux.
 
